@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Form </title>
+	<link rel="stylesheet" href="form1.css">
+</head>
+<body>
+	<header>
+		<center><h1>SHRI KRISHNASWAMY COLLEGE FOR WOMEN</h1>
+			<h1>Anna nagar, Chennai.</h1>
+			<a href="https://www.shrikrishnaswamycollegeforwomen.com/index"><h4>skcw@gmail.com</h4></a>
+		</center>
+	</header>
+	<div class="navbar">
+    <a href="home.html"><b>Home</b></a>
+    <a href="para.html"><b>About us</b></a>
+    <a href="help"><b class="help">Help</b></a>
+</div>
+	<form action="Firsthtml.html">
+		<h3>Name:
+		<input type="text" name="Name" size="20" required /><br><br>
+		Course:
+		<input type="text" name="Course" size="15" required /><br><br>
+		<lable for="Department">Select a Department</lable>
+		<select name="Department" id="Department">
+			<option hidden selected required>Select one...</option>
+			<option value="Computer application">Computer application</option>
+			<option value="Computer science">Computer science</option>
+			<option value="Information tech">Information Tech</option>
+		</select><br><br>
+		Year of studying:<br>
+		<input type="radio" name ="year of studying" required />
+		<label for="year1">I year</label><br>
+
+		<input type="radio" name ="year of studying" required />
+		<label for="year2">II year</label><br>
+
+		<input type="radio" name ="year of studying" required />
+		<label for="year3">III year</label><br><br>
+
+		Favourite sub:<br>
+		<input type="checkbox">
+		<label for="Java">Java</label>
+		<input type="checkbox" >
+		<label for="VB">VB</label><br><br>
+
+		Address:<br>
+		<textarea type="text" name="address" rows="6" cols="40" required /></textarea><br><br>
+
+		<label> Photo: </label><br>
+		<input type="file" id="myFile" > <br><br>
+
+		<input type="submit" class="submit" value="submit">
+		</h3>
+	</form>
+</body>
+</html>
